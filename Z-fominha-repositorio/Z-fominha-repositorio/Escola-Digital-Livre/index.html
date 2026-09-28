@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<!-- Deus é fiel. -->
+<!-- Declara que este documento usa HTML5 -->
+
+<html lang="pt-BR">
+    <!-- Elemento raiz da página. Lang="pt-BR" define o idioma -->
+
+<head>
+    <!-- Informações de bastidores: não aparecem diretamente na tela -->
+
+    <meta charset="UTF-8">
+    <!-- Codificação de caracteres, garante acentos corretos -->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Ativa a responsividade em dispositivos móveis -->
+
+    <title>Zé Fominha</title>
+    <!-- Título exibido na aba do navegador -->
+
+    <link rel="stylesheet" href="style.css">
+    <!-- Conecta o arquivo de estilos CSS -->
+
+    <!-- Fonte do projeto -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+    <!-- Tudo o que o usuário vê e interage fica aqui -->
+
+    <header class="header">
+        <!-- Tag semântica: indica o cabeçalho da página -->
+
+        <div class="header-container">
+            <!-- Container que agrupa e centraliza o conteúdo do header -->
+
+        <!-- LOGO -->
+            <a href="./index.html" class="logo">
+                <!-- Logo clicável, leva para a página inicial -->
+
+                <img 
+                    src="./assets/Zefominhalogo.jpeg"
+                    alt="Logo Zé Fominha"
+                    width="40"
+                >
+                <!-- Imagem da logo -->
+
+                <span class="logo-text">
+                    <span class="logo-title">Zé Fominha</span>
+                    <span class="logo-subtitle">O melhor delivery</span>
+                </span>
+
+            </a>
+
+            <!-- MENU DE NAVEGAÇÃO -->
+            <nav class="main-nav">
+                <!-- Tag semântica para o menu de navegação -->
+
+                <a href="./index.html" class="nav-link">
+                    Início
+                </a>
+                <!-- "active" destaca a página atual -->
+
+                <a href="./cardapio.html" class="nav-link">
+                    Cardápio
+                </a>
+
+                <a href="./Carrinho.html" class="nav-link">
+                    Carrinho
+                </a>
+
+                <a href="./Sobre.html" class="nav-link">
+                    Sobre
+                </a>
+
+            </nav>
+
+            <!-- AÇÕES DO HEADER -->
+            <div class="header-actions">
+                <!-- Agrupa o campo de busca e o botão -->
+
+                <div class="search-box">
+
+                    <input 
+                        type="text" 
+                        placeholder="Buscar"
+                        aria-label="Buscar"
+                    >
+                    <!-- Campo de busca -->
+
+                    <img 
+                        class="search-icon"
+                        src="./Assets/icons8-pesquisar.svg"
+                        alt=""
+                        width="20"
+                    >
+                    <!-- Ícone da lupa -->
+
+                </div>
+
+                <button type="button" class="btn-primary">
+                    Fazer login
+                </button>
+                <!-- Botão de ação -->
+
+                
+
+            </div>
+
+        </div>
+    </header>
